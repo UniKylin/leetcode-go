@@ -1,3 +1,3 @@
-module x-go-lc
+module x-go
 
 go 1.16
