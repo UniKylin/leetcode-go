@@ -1,6 +1,7 @@
-// link		: https://leetcode-cn.com/problems/binary-search/
-// Author	: Kylin
-// Date		: 2022-01-14
+// link			: https://leetcode-cn.com/problems/binary-search/
+// Author		: Kylin
+// Date			: 2022-01-14
+// LastUpdate	: 2024-12-30
 
 package leetcode
 
@@ -23,6 +24,7 @@ func Search(nums []int, target int) int {
 	return -1
 }
 
+// BinarySearchClosed 左右都是闭区间写法
 func BinarySearchClosed(nums []int, target int) int {
 	left, right := 0, len(nums)-1
 
